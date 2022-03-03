@@ -1,0 +1,51 @@
+.side-nav-title{
+  margin-top: 20px;
+  background: #00000029;
+  color: #FFFFFF !important;
+}
+
+.btn-warning{
+  color: #FFFFFF;
+}
+
+/*Add Photos Page*/
+td form{
+  display: inline-block;
+}
+
+td form button{
+  margin-top: 6px;
+}
+
+.help-inline{
+  color: #FF0000;
+}
+
+img.img-thumbnail{
+  object-fit: cover;
+  overflow: hidden;
+  height: 80%;
+  width : 100%;
+}
+
+img.img-thumbnail.img-table{
+  object-fit: cover;
+  overflow: hidden;
+  height: 45%;
+  width : 40%;
+}
+
+label.form-label.required:after {
+  color: #d00;
+  content: "*";
+  position: absolute;
+  margin-left: 5px;
+}
+
+.max-height{
+  max-height: 500px;
+  overflow-y: scroll;
+}
+.select2-container--open{
+  z-index: 1100;
+}
